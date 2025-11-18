@@ -169,7 +169,7 @@ function drawQuantityChart(data) {
 
   // 数量でソート
   genericDrugs.sort((a, b) => b.quantity - a.quantity);
-  const top10 = genericDrugs.slice(0, 10);
+  const top10 = genericDrugs.slice(0, 5);
 
   const ctx = document.getElementById("quantityChart");
 
